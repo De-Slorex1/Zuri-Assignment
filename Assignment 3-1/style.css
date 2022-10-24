@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(170, 24, 53);
+    height: 50px;
+}
+nav{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav h2{
+    color: white;
+    font-size: 18px;
+    font-style: italic;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.about-me-page{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(227, 47, 83);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me-content{
+    color: white;
+    line-height: 30px;
+}
+.about-me-content p{
+    font-style: italic;
+}
+.about-page-two{
+    padding: 0px 70px;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(170, 24, 53);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.about-page-content{
+    margin: 20px 70px;
+}
+.about-page-content h2{
+    padding: 10px 0px;
+    color:  white;
+    font-size: 19px;
+}
+.about-page-content p{
+    color: rgb(193, 186, 186);
+    font-size: 16px;
+}
+.footer{
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+.footer p{
+    font-size: 17px;
+    font-weight: 600;
+}
+.section-page{
+    width: 100%;
+    height: 900pt;
+    background-color: rgb(227, 47, 83);
+}
+.box{
+    padding: 30px;
+    position: absolute;
+    color: white;
+    border: 1px solid white;
+    width: 600px;
+    height: 400pt;
+    left: 30%;
+    top: 20%;
+    border-radius: 30px;
+}
+.box h1{
+    margin-bottom: 15px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: serif;
+}
+form{
+    display: block;
+}
+.input{
+    margin-bottom: 30px;
+    width: 400px;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+label{
+    color: black;
+    font-size: 18px;
+    font-family: serif;
+}
+#btn{
+    color: white;
+    padding: 14px 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(170, 24, 53);
+    outline: none;
+}
+textarea{
+    border: none;
+    resize: none;
+}
+.reg-box{
+    padding: 30px;
+    position: absolute;
+    color: white;
+    border: 1px solid white;
+    width: 600px;
+    height: 700pt;
+    left: 30%;
+    top: 20%;
+    border-radius: 30px;
+    background-color: white;
+}
+.inputs{
+    color: white;
+    margin-bottom: 20px;
+    width: 400px;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(200, 44, 75);
+}
+.reg-box h1{
+    margin-bottom: 15px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: serif;
+    color: rgb(200, 44, 75);
+}
+.login-box{
+    padding: 30px;
+    position: absolute;
+    color: white;
+    border: 1px solid white;
+    width: 600px;
+    height: 300pt;
+    left: 30%;
+    top: 20%;
+    border-radius: 30px;
+    background-color: white;
+}
+.login-box h1{
+    margin-bottom: 15px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: serif;
+    color: rgb(200, 44, 75);
+}
+#btns{
+    margin: 15px 10px;
+    color: white;
+    padding: 14px 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(227, 47, 83);
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.link{
+    margin-left: 35px;
+    color: rgb(200, 44, 75);
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.service-title{
+    padding: 20px 30px;
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    font-style: italic;
+}
+.items{
+    margin: 20px;
+    color: white;
+}
+.page{
+    padding: 0px 30px;
+}
+.para-content{
+    color: white;
+    line-height: 40px;
+}
